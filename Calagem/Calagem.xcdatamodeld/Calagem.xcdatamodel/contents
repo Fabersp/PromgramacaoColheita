@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A361c" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Agronomo" syncable="YES">
+        <attribute name="celular" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idAgronomo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uf" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Colheita" syncable="YES">
+        <attribute name="dataPlantio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataPrevista" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dataPrevistaStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diasAtraso" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diasCiclo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="propriedade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proprietario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="variedade" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Proprietario" syncable="YES">
+        <attribute name="celular" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cidade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endereco" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idProprietario" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nomeProprietario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="propriedade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uf" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Agronomo" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Colheita" positionX="178" positionY="-9" width="128" height="180"/>
+        <element name="Proprietario" positionX="-0" positionY="171" width="128" height="178"/>
+    </elements>
+</model>
